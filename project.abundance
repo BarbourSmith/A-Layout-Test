@@ -202,8 +202,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.6904761904761905,
-            "y": 0.33704735376044564,
+            "x": 0.6878306878306879,
+            "y": 0.3259052924791086,
             "uniqueID": 1731966877485,
             "ioValues": [
                 {
@@ -225,10 +225,6 @@
                 {
                     "name": "Part Padding",
                     "ioValue": 6
-                },
-                {
-                    "name": "Sheet Padding",
-                    "ioValue": 76
                 }
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut."
@@ -246,7 +242,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 0
+                    "ioValue": 60
                 },
                 {
                     "name": "yDist",
