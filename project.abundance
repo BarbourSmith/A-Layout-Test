@@ -227,7 +227,25 @@
                     "ioValue": 6
                 }
             ],
-            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut."
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": [
+                {
+                    "translate": {
+                        "x": 53.099998474121094,
+                        "y": 40.599998474121094
+                    },
+                    "id": 0,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 53.0222758979248,
+                        "y": 83.04639144703368
+                    },
+                    "id": 1,
+                    "rotate": 0
+                }
+            ]
         },
         {
             "atomType": "Move",
