@@ -158,12 +158,11 @@
             "tags": [
                 "",
                 "cutLayout"
-            ],
-            "cutTag": true
+            ]
         },
         {
             "atomType": "Tag",
-            "name": ",cutLayout",
+            "name": "",
             "x": 0.36177248677248675,
             "y": 0.6295264623955432,
             "uniqueID": 1731966833710,
@@ -175,16 +174,14 @@
             ],
             "description": "Tags geometry so that it can be extracted later.",
             "tags": [
-                "",
-                "cutLayout"
-            ],
-            "cutTag": true
+                ""
+            ]
         },
         {
-            "atomType": "Join",
+            "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.5743639921722113,
-            "y": 0.5905292479108635,
+            "x": 0.5114503816793893,
+            "y": 0.4490861618798956,
             "uniqueID": 1731966842343,
             "ioValues": [
                 {
@@ -202,17 +199,13 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7142857142857143,
-            "y": 0.28969359331476324,
+            "x": 0.72264631043257,
+            "y": 0.206266318537859,
             "uniqueID": 1731966877485,
             "ioValues": [
                 {
                     "name": "geometry",
                     "ioValue": 1731966842343
-                },
-                {
-                    "name": "Material Thickness",
-                    "ioValue": 19
                 },
                 {
                     "name": "Sheet Width",
@@ -234,15 +227,15 @@
                         "x": 111.72103214263916,
                         "y": 58.022281646728516
                     },
-                    "id": 1,
+                    "id": 3,
                     "rotate": 90
                 },
                 {
                     "translate": {
-                        "x": 63.1,
+                        "x": 53.099998458105475,
                         "y": 156.644557932959
                     },
-                    "id": 0,
+                    "id": 2,
                     "rotate": 0
                 }
             ]
@@ -250,8 +243,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.8353174603174603,
-            "y": 0.3565459610027855,
+            "x": 0.8473282442748092,
+            "y": 0.3237597911227154,
             "uniqueID": 1731966912306,
             "ioValues": [
                 {
@@ -274,10 +267,10 @@
             "description": "Moves a shape laterally in X, Y, Z."
         },
         {
-            "atomType": "Join",
+            "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.8458994708994709,
-            "y": 0.6713091922005571,
+            "x": 0.727735368956743,
+            "y": 0.6788511749347258,
             "uniqueID": 1731966928043,
             "ioValues": [
                 {
