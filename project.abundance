@@ -389,6 +389,41 @@
                     }
                 ]
             ]
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.6977513227513228,
+            "y": 0.8690807799442898,
+            "uniqueID": "b141f2ae-1bc4-4b2d-93ff-decb825a2c7b",
+            "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": "c1f50afd-f041-42a1-928c-b28847ba7832"
+                },
+                {
+                    "name": "Tool Size",
+                    "ioValue": 1
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 3
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 1500
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1.5
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "A-Layout-Test"
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+            "partName": "A-Layout-Test"
         }
     ],
     "allConnectors": [
@@ -510,6 +545,13 @@
             "ap2Primary": true,
             "ap1ID": "c1f50afd-f041-42a1-928c-b28847ba7832",
             "ap2ID": 1731966912306
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": "c1f50afd-f041-42a1-928c-b28847ba7832",
+            "ap2ID": "b141f2ae-1bc4-4b2d-93ff-decb825a2c7b"
         }
     ],
     "unitsKey": "MM",
