@@ -57,8 +57,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.22420634920634921,
-            "y": 0.7472222222222221,
+            "x": 0.23148148148148145,
+            "y": 0.7910863509749304,
             "uniqueID": 1731966779217,
             "ioValues": [
                 {
@@ -393,8 +393,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7142857142857143,
-            "y": 0.8551532033426184,
+            "x": 0.7202380952380952,
+            "y": 0.9025069637883008,
             "uniqueID": "b141f2ae-1bc4-4b2d-93ff-decb825a2c7b",
             "ioValues": [
                 {
@@ -407,7 +407,7 @@
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 3
+                    "ioValue": 20
                 },
                 {
                     "name": "Speed",
@@ -423,7 +423,8 @@
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-            "partName": "A-Layout-Test"
+            "partName": "A-Layout-Test",
+            "sortDirection": "Left"
         },
         {
             "atomType": "Assembly",
