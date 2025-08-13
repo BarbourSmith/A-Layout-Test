@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1731966928043
+                    "ioValue": "0fea0c0f-ed07-4e04-9793-c496a08ccff3"
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -224,8 +224,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.806878306878307,
-            "y": 0.6972222222222222,
+            "x": 0.7711640211640212,
+            "y": 0.47075208913649025,
             "uniqueID": 1731966928043,
             "ioValues": [
                 {
@@ -393,8 +393,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.6977513227513228,
-            "y": 0.8690807799442898,
+            "x": 0.705026455026455,
+            "y": 0.8495821727019498,
             "uniqueID": "b141f2ae-1bc4-4b2d-93ff-decb825a2c7b",
             "ioValues": [
                 {
@@ -403,7 +403,7 @@
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 1
+                    "ioValue": 0.25
                 },
                 {
                     "name": "Passes",
@@ -424,6 +424,24 @@
             ],
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
             "partName": "A-Layout-Test"
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.8525132275132274,
+            "y": 0.7493036211699164,
+            "uniqueID": "0fea0c0f-ed07-4e04-9793-c496a08ccff3",
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": "c1f50afd-f041-42a1-928c-b28847ba7832"
+                },
+                {
+                    "name": "Shape 2",
+                    "ioValue": "b141f2ae-1bc4-4b2d-93ff-decb825a2c7b"
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
         }
     ],
     "allConnectors": [
@@ -506,13 +524,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1731966928043,
-            "ap2ID": 1731966755217
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": "1b90d612-f262-42b8-bc45-342d267783d3",
@@ -552,6 +563,27 @@
             "ap2Primary": false,
             "ap1ID": "c1f50afd-f041-42a1-928c-b28847ba7832",
             "ap2ID": "b141f2ae-1bc4-4b2d-93ff-decb825a2c7b"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 1",
+            "ap2Primary": false,
+            "ap1ID": "c1f50afd-f041-42a1-928c-b28847ba7832",
+            "ap2ID": "0fea0c0f-ed07-4e04-9793-c496a08ccff3"
+        },
+        {
+            "ap1Name": "Gcode",
+            "ap2Name": "Shape 2",
+            "ap2Primary": false,
+            "ap1ID": "b141f2ae-1bc4-4b2d-93ff-decb825a2c7b",
+            "ap2ID": "0fea0c0f-ed07-4e04-9793-c496a08ccff3"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "0fea0c0f-ed07-4e04-9793-c496a08ccff3",
+            "ap2ID": 1731966755217
         }
     ],
     "unitsKey": "MM",
