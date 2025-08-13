@@ -388,8 +388,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7712854757929883,
-            "y": 0.11977715877437325,
+            "x": 0.9649415692821369,
+            "y": 0.7019498607242339,
             "uniqueID": "b141f2ae-1bc4-4b2d-93ff-decb825a2c7b",
             "ioValues": [
                 {
@@ -419,7 +419,7 @@
             ],
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
             "partName": "A-Layout-Test",
-            "sortDirection": "Top"
+            "sortDirection": "Right"
         },
         {
             "atomType": "Assembly",
