@@ -67,7 +67,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 20
+                    "ioValue": 10
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -261,8 +261,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.5992063492063492,
-            "y": 0.8111111111111111,
+            "x": 0.6110183639398998,
+            "y": 0.83008356545961,
             "uniqueID": "0146bd08-ba76-40be-9938-eee1486218bb",
             "ioValues": [
                 {
@@ -364,19 +364,11 @@
                         }
                     },
                     {
-                        "id": 2,
-                        "rotate": 91,
+                        "id": 0,
+                        "rotate": 90,
                         "translate": {
                             "x": 40.7000000004061,
                             "y": 169.60000000000002
-                        }
-                    },
-                    {
-                        "id": 0,
-                        "rotate": 0,
-                        "translate": {
-                            "x": 53.2,
-                            "y": 263.50000000000006
                         }
                     },
                     {
@@ -384,7 +376,15 @@
                         "rotate": 0,
                         "translate": {
                             "x": 58.2,
-                            "y": 362.40000000000003
+                            "y": 281
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 53.2,
+                            "y": 379.90000000000003
                         }
                     }
                 ]
@@ -393,7 +393,7 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7320534223706178,
+            "x": 0.7262103505843072,
             "y": 0.7242339832869081,
             "uniqueID": "b141f2ae-1bc4-4b2d-93ff-decb825a2c7b",
             "ioValues": [
@@ -407,7 +407,7 @@
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 4
+                    "ioValue": 3
                 },
                 {
                     "name": "Speed",
